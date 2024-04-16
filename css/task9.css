@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+h1{
+    font-size:25px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+h3{
+    margin-left: 70px;
+}
+.imgbox{
+    width: 100%;
+    height: 500px;
+    background-image: url('../media/paul-pastourmatzis-gpeMSsdYWuQ-unsplash.jpg');
+    /* background-image: url('../media/john-schnobrich-2FPjlAyMQTA-unsplash.jpg'); */
+    background-size: cover;
+    background-position: bottom;
+    /* opacity: 0.9; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+
+}
+.imgbox p{
+    width: 40%;
+}
+.imgbox h1{
+    font-weight: 800;
+
+}
+/* .border{
+    border: 1px solid black;
+} */
+section{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+section div{
+    height: 300px;
+    width: 250px;
+}
+.div1{
+    padding-top: 15px;
+    text-align: center;
+}
+.div1 h4{
+    color: blue;
+}
+.div1 p{
+    text-align: justify;
+    padding: 20px;
+}
+
+
